@@ -1,0 +1,32 @@
+class Lab3p1{
+	static int view;
+	public static void display(){
+	System.out.println(view);
+	}
+	public int show(){
+		int view=10;
+	    return(view);
+	}
+}
+class Lab3p2 extends Lab3p1{
+	static int neu;
+	public static void display(){
+	  System.out.println(view + neu);
+	}
+	@Override
+	public int show(){
+		return super.show();
+	}
+	public void peal(){
+		System.out.println("JAVA");
+
+	}
+}
+class Lab3p3{
+	public static void main(String... args){
+	Lab3p2 ob=new Lab3p2();
+	System.out.println(ob.show()); //10
+	ob.display(); // 0
+	ob.peal(); //JAVA
+    }
+}
