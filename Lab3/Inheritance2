@@ -14,7 +14,7 @@ class Tiger extends Animal {
     }
 }
 
-class Lab3p5 {
+class Inheritance2 {
     public static void main(String[] args) {
         Animal a = new Tiger();   
         a.sound();
