@@ -22,7 +22,7 @@ class Lab3p2 extends Lab3p1{
 
 	}
 }
-class Lab3p3{
+class Polymorphism{
 	public static void main(String... args){
 	Lab3p2 ob=new Lab3p2();
 	System.out.println(ob.show()); //10
