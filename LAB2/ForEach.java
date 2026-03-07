@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class L2P1{
+class ForEach{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the size");
